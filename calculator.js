@@ -351,7 +351,7 @@ function widgetStart(){
 				dataType: "json",
 				data:JSON.stringify({
 					email_address: email,
-					affiliate: 'C21859020',
+					affiliate: 'SAJATKOD',
 					prereguid: 'prereguid',
 					preregloc: 'preregloc'
 					}),
@@ -430,7 +430,7 @@ function widgetStart(){
 					last_name: jQuery('.cm-lastname-field').val(),
 					dest_addr: jQuery('.cm-wallet-address-field').val(),
 					lang: "hu",
-					affiliate: "C21859020"
+					affiliate: "SAJATKOD"
 				})
 			}).done(function(data) {
 				console.log(data);
@@ -603,4 +603,4 @@ var x, i, j, selElmnt, a, b, c;
 
 		/* If the user clicks anywhere outside the select box,
 		then close all select boxes: */
-		document.addEventListener("click", closeAllSelect); 
+		document.addEventListener("click", closeAllSelect);
