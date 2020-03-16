@@ -6,7 +6,7 @@ A widget elhelyezéséhez e következő kódsort kell módosítani a saját affi
  ```sh
 affiliate: 'SAJATKOD'
 ```
-A módosítást követően így fog kinézni: 
+A módosítást követően így fog kinézni:
  ```sh
 affiliate: 'C21859020'
 ```
@@ -14,4 +14,5 @@ A kódban 2 helyen kell ezt a módosítást elvégezni ehhez használjuk a kód 
 
 A fileokat ide kell elhelyezni:
 /scripts/coinmixed/js/calculator.js
-scripts/coinmixed/css/style.css
+
+/scripts/coinmixed/css/style.css
