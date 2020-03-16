@@ -1,0 +1,109 @@
+<div class="cm-widget">
+		<link rel="stylesheet" href="/scripts/coinmixed/css/style.css">
+
+
+		<input id="fiat" type="hidden">
+		<input id="coin" type="hidden">
+
+		<div class="cm-image-container">
+			<img src="https://coinmixed.eu/wp-content/uploads/2018/12/coinmixed-textlogo1-1.svg" alt="Coinmixed logo">
+		</div>
+
+		<div class="cm-converter-container">
+			<div class="cm-row mb-20">
+				<div class="cm-input-icon-wrap">
+					<span class="input-pre-content">
+						Neked van
+					</span>
+					<input type="number" class="input-with-icon fiat-value" step="0.01" min="0">
+					<span class="input-icon coin-icon with-border">
+						<div class="custom-select fiat-custom-select">
+							<select id="cust-fiat-select">
+								<option value="0">Select</option>
+								<option value="HUF" selected><span class="fiat input-icon">HUF</span></option>
+								<option value="EUR"><span class="fiat input-icon">EUR</span></option>
+							</select>
+						</div>
+					</span>
+				</div>
+			</div>
+			<div class="cm-row mb-20">
+				<div class="cm-input-icon-wrap">
+					<span class="input-pre-content">
+						Kapsz
+					</span>
+					<input type="number" class="input-with-icon coin-value" step="0.00001" min="0">
+					<span class="input-icon coin-icon with-border">
+						<div class="custom-select coin-custom-select">
+							<select id="cust-coin-select">
+								<option value="0">Select</option>
+								<option value="XBT" selected><span class="crypto">BTC</span></option>
+								<option value="ETH"><span class="crypto">ETH</span></option>
+								<option value="LTC"><span class="crypto">LTC</span></option>
+								<option value="ILK"><span class="crypto">ILK</span></option>
+								<option value="USDC"><span class="crypto">USDC</span></option>
+								<option value="USDt"><span class="crypto">USDt</span></option>
+							</select>
+						</div>
+					</span>
+				</div>
+			</div>
+			<div class="cm-row mb-20">
+				<div class="cm-input-icon-wrap">
+					<span class="input-pre-content">
+						Email
+					</span>
+					<input type="email" class="cm-email-field" placeholder="Email">
+				</div>
+			</div>
+			<div class="cm-row mb-20">
+				<div class="cm-submit-container">
+					<a href="https://coinmixed.eu/app/" class="cm-buy-button cm-button">
+						<span class="crypto">BTC</span> Vásárlás
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="cm-info-container cm-row mb-20">
+			Vásárlás regisztráció nélkül!
+		</div>
+		<div class="cm-converter-container cm-row cm-extra-form">
+			<div class="cm-input-icon-wrap mb-20">
+				<span class="input-pre-content">
+					Telefonszám
+				</span>
+				<input type="text" class="cm-mobilenumber-field" placeholder="+36_________">
+			</div>
+
+			<div class="cm-input-icon-wrap mb-20">
+				<span class="input-pre-content">
+					Vezetéknév
+				</span>
+				<input type="text" class="cm-firstname-field" placeholder="Vezetéknév">
+			</div>
+			<div class="cm-input-icon-wrap mb-20">
+				<span class="input-pre-content">
+					Keresztnév
+				</span>
+				<input type="text" class="cm-lastname-field" placeholder="Keresztnév">
+			</div>
+			<div class="cm-input-icon-wrap mb-20">
+				<span class="input-pre-content">
+					Tárcacím a kiküldéshez
+				</span>
+				<input type="text" class="cm-wallet-address-field" placeholder="Tárcacím">
+			</div>
+			<div class="cm-submit-container">
+				<a href="https://coinmixed.eu/app/" class="cm-register-button cm-button">
+					Tovább
+				</a>
+			</div>
+		</div>
+		<div class="cm-feedback-container cm-row mb-20">
+			<div class="custom-col-12 cm-feedback cm-success">
+				Error
+			</div>
+		</div>
+
+		<script type='text/javascript' src="/scripts/coinmixed/js/calculator.js"></script>
+	</div>
