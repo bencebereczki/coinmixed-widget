@@ -351,7 +351,7 @@ function widgetStart(){
 				dataType: "json",
 				data:JSON.stringify({
 					email_address: email,
-					affiliate: 'SAJATKOD',
+					affiliate: 'C77210432',
 					prereguid: 'prereguid',
 					preregloc: 'preregloc'
 					}),
@@ -430,7 +430,7 @@ function widgetStart(){
 					last_name: jQuery('.cm-lastname-field').val(),
 					dest_addr: jQuery('.cm-wallet-address-field').val(),
 					lang: "hu",
-					affiliate: "SAJATKOD"
+					affiliate: "C77210432"
 				})
 			}).done(function(data) {
 				console.log(data);
