@@ -240,7 +240,7 @@ function widgetStart(){
 						const half = round(rangeMax/2, 2);
 
 						if (stage == 'init'){
-							var res = 20000;
+							var res = 50000;
 							jQuery('.fiat-value').val(res);
 							convertToCoin(res);
 							// setRange(0, high, step, round(res * change, 5), stage);
@@ -476,7 +476,7 @@ function widgetStart(){
 						jQuery('.cm-feedback').text("A felhasználó kérésére ez az azonosító törlésre került!");
 						break;
 					case 'BUY_invalid_amount2':	// Minimum összeg alatti vásárlási kísérlet.
-						jQuery('.cm-feedback').text("Legalább 20.000 HUF vagy 60 EUR értékben kezdeményezhető vásárlás!");
+						jQuery('.cm-feedback').text("Legalább 50.000 HUF vagy 150 EUR értékben kezdeményezhető vásárlás!");
 						break;
 					case 'EGEN_lockedout_E001':
 						// Kizárt user, nem vásárolhat ezzel.
