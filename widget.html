@@ -1,6 +1,41 @@
 <div class="cm-widget">
 		<link rel="stylesheet" href="/scripts/coinmixed/css/style.css">
+<style>
+			.blob:hover {
+				color: #ce8216;
+				animation:none;
+			}
+			
+			
+               .blob {
+                border: 3px solid;
 
+
+                box-shadow: 0px 0px 5px black;
+								 border-radius: 15px;
+    background-color: #0083cc;
+                transform: scale(1);
+                animation: pulse 2s infinite;
+              }
+
+              @keyframes pulse {
+                0% {
+                  transform: scale(0.90);
+                  box-shadow: 0 0 0 0 rgba(0, 131, 204, 0.8);
+                }
+
+                70% {
+                  transform: scale(1);
+                  box-shadow: 0 0 0 14px rgba(0, 131, 204, 0.0);
+                }
+
+                100% {
+                  transform: scale(0.90);
+                  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+                }
+              }
+
+            </style>
 
 		<input id="fiat" type="hidden">
 		<input id="coin" type="hidden">
@@ -58,7 +93,7 @@
 			</div>
 			<div class="cm-row mb-20">
 				<div class="cm-submit-container">
-					<a href="https://coinmixed.eu/app/" class="cm-buy-button cm-button">
+					<a href="https://coinmixed.eu/app/" class="cm-buy-button cm-button blob">
 						<span class="crypto">BTC</span> Vásárlás
 					</a>
 				</div>
